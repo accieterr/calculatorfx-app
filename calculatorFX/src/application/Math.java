@@ -149,16 +149,7 @@ public class Math {
 	
 	public String decimal()
 	{
-		if(operator==null)
-		{
-			arg1 = arg1 + "point";
-			return arg1;
-		}
-		else
-		{
-			arg2 = arg2 + "point";
-			return arg2;
-		}
+		return extendNum(".");
 	}
 	
 	public String equal()

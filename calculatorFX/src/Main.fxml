@@ -6,110 +6,110 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #F2F2F2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #2E3C43;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
    <children>
-      <Rectangle fx:id="recDisplay" arcHeight="5.0" arcWidth="5.0" fill="#a0adba" height="120.0" layoutX="24.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="352.0" />
-      <Button layoutX="35.0" layoutY="355.0" mnemonicParsing="false" onAction="#button_1" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="1">
+      <Rectangle fx:id="recDisplay" arcHeight="20.0" arcWidth="20.0" fill="#8fa7b1" height="120.0" layoutX="24.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="352.0" />
+      <Button layoutX="35.0" layoutY="355.0" mnemonicParsing="false" onAction="#button_1" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="1" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="355.0" mnemonicParsing="false" onAction="#button_2" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="2">
+      <Button layoutX="115.0" layoutY="355.0" mnemonicParsing="false" onAction="#button_2" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="2" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="195.0" layoutY="355.0" mnemonicParsing="false" onAction="#button_3" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="3">
+      <Button layoutX="195.0" layoutY="355.0" mnemonicParsing="false" onAction="#button_3" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="3" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" layoutX="115.0" layoutY="295.0" mnemonicParsing="false" onAction="#button_5" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="5">
+      <Button alignment="CENTER" layoutX="115.0" layoutY="295.0" mnemonicParsing="false" onAction="#button_5" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="5" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="35.0" layoutY="295.0" mnemonicParsing="false" onAction="#button_4" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="4">
+      <Button layoutX="35.0" layoutY="295.0" mnemonicParsing="false" onAction="#button_4" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="4" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="195.0" layoutY="295.0" mnemonicParsing="false" onAction="#button_6" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="6">
+      <Button layoutX="195.0" layoutY="295.0" mnemonicParsing="false" onAction="#button_6" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="6" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="35.0" layoutY="235.0" mnemonicParsing="false" onAction="#button_7" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="7">
+      <Button layoutX="35.0" layoutY="235.0" mnemonicParsing="false" onAction="#button_7" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="7" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="235.0" mnemonicParsing="false" onAction="#button_8" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="8">
+      <Button layoutX="115.0" layoutY="235.0" mnemonicParsing="false" onAction="#button_8" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="8" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="195.0" layoutY="235.0" mnemonicParsing="false" onAction="#button_9" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="9">
+      <Button layoutX="195.0" layoutY="235.0" mnemonicParsing="false" onAction="#button_9" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="9" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" layoutX="296.0" layoutY="356.0" mnemonicParsing="false" onAction="#add" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #DADADA;" text="+">
+      <Button alignment="CENTER" layoutX="296.0" layoutY="356.0" mnemonicParsing="false" onAction="#add" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #5F9EA0;" text="+" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" layoutX="296.0" layoutY="296.0" mnemonicParsing="false" onAction="#subtract" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #DADADA;" text="-">
+      <Button alignment="CENTER" layoutX="296.0" layoutY="296.0" mnemonicParsing="false" onAction="#subtract" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #5F9EA0;" text="-" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" layoutX="296.0" layoutY="236.0" mnemonicParsing="false" onAction="#multiply" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #DADADA;" text="x">
+      <Button alignment="CENTER" layoutX="296.0" layoutY="236.0" mnemonicParsing="false" onAction="#multiply" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #5F9EA0;" text="x" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" layoutX="296.0" layoutY="176.0" mnemonicParsing="false" onAction="#divide" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #DADADA;" text="÷">
+      <Button alignment="CENTER" layoutX="296.0" layoutY="176.0" mnemonicParsing="false" onAction="#divide" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #5F9EA0;" text="÷" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" layoutX="296.0" layoutY="416.0" mnemonicParsing="false" onAction="#equal" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #F5A511;" text="=">
+      <Button alignment="CENTER" layoutX="296.0" layoutY="416.0" mnemonicParsing="false" onAction="#equal" prefHeight="45.0" prefWidth="80.0" style="-fx-background-color: #FFA07A;" text="=" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="415.0" mnemonicParsing="false" onAction="#button_0" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #A9A9A9;" text="0">
+      <Button layoutX="115.0" layoutY="415.0" mnemonicParsing="false" onAction="#button_0" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #607D8B;" text="0" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button fx:id="decimal" layoutX="195.0" layoutY="415.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #A9A9A9;" text=".">
+      <Button layoutX="195.0" layoutY="415.0" mnemonicParsing="false" onAction="#decimal" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #3C6E71;" text="." textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="35.0" layoutY="175.0" mnemonicParsing="false" onAction="#clear" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #A9A9A9;" text="C">
+      <Button layoutX="35.0" layoutY="175.0" mnemonicParsing="false" onAction="#clear" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #3C6E71;" text="C" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="35.0" layoutY="415.0" mnemonicParsing="false" onAction="#negative" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #A9A9A9;" text="±">
+      <Button layoutX="35.0" layoutY="415.0" mnemonicParsing="false" onAction="#negative" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #3C6E71;" text="±" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="115.0" layoutY="175.0" mnemonicParsing="false" onAction="#clearEntry" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #A9A9A9;" text="CE">
+      <Button layoutX="115.0" layoutY="175.0" mnemonicParsing="false" onAction="#clearEntry" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #3C6E71;" text="CE" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="195.0" layoutY="175.0" mnemonicParsing="false" onAction="#backspace" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #A9A9A9;" text="⌫">
+      <Button layoutX="195.0" layoutY="175.0" mnemonicParsing="false" onAction="#backspace" prefHeight="45.0" prefWidth="65.0" style="-fx-background-color: #3C6E71;" text="⌫" textFill="WHITE">
          <font>
             <Font name="Segoe UI Semibold" size="22.0" />
          </font>
       </Button>
-      <Label fx:id="numDisplay" alignment="CENTER_RIGHT" layoutX="40.0" layoutY="65.0" prefHeight="73.0" prefWidth="320.0" text="0" textAlignment="RIGHT" textOverrun="CLIP">
+      <Label fx:id="numDisplay" alignment="CENTER_RIGHT" layoutX="40.0" layoutY="65.0" prefHeight="73.0" prefWidth="320.0" text="0" textAlignment="RIGHT" textFill="WHITE" textOverrun="CLIP">
          <font>
             <Font name="Segoe UI Semibold" size="50.0" />
          </font>
